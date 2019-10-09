@@ -1,12 +1,14 @@
-  
+#https://github.com/0ggh05t5/assignment
 language: node_js
-node_js:
-  - 10.9.0
 
-cache: npm
+node_js:
+  - "10.90.0"
+
+catch: npm
 
 before_install:
   - ls -la
-  - npm install
-  - mkdir public
+  - pwd
+  - mkdir test
+  - cd test
   - ls -la
