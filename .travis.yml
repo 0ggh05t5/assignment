@@ -2,7 +2,7 @@
 language: node_js
 
 node_js:
-  - "10.90.0"
+  - "10.9.0"
 
 catch: npm
 
