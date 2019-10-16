@@ -7,8 +7,5 @@ node_js:
 catch: npm
 
 before_install:
-  - ls -la
-  - pwd
-  - mkdir test
-  - cd test
-  - ls -la
+  - "npm config set spin false"
+  - npm i -g now
